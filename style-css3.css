@@ -1,0 +1,28 @@
+﻿#header-title hover{
+-moz-transform: rotate(5deg);
+-webkit-transform: rotate(5deg);
+background: #DDDDDD;
+border: 1px solid #999999;
+display: block;
+margin: 10px auto;
+padding: 20px;
+text-align: center;
+-moz-border-radius: 20px 10px 30px 50px;
+-webkit-border-radius: 20px 10px 30px 50px;
+border-radius: 20px 10px 30px 50px;
+-moz-box-shadow: rgb(150,150,150) 5px 5px;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px;
+box-shadow: rgb(150,150,150) 5px 5px 10px inset;
+background: -webkit-linear-gradient(top, #FFFFFF, #006699);
+background: -moz-linear-gradient(30deg, #FFFFFF, #006699);
+background: radial-gradient(center,circle,#FFFFFF 0%, #006699 200%);
+-moz-transform: translateY(100px) rotate(45deg) scaleX(0.3);
+-webkit-transform: translateY(100px) rotate(45deg) scaleX(0.3);
+-moz-transition: -moz-transform 1s ease-in-out 0.5s;
+-webkit-transition: -webkit-transform 1s ease-in-out 0.5s;
+}
+#span-title {
+font: bold 36px verdana, sans-serif;
+text-shadow: rgba(0,0,0,0.5) 3px 3px 5px;
+color: hsla(120, 100%, 50%, 0.5);
+}
